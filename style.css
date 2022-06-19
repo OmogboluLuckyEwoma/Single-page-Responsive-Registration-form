@@ -1,0 +1,113 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 100%,74%);
+    background-image:url(./images/bg-intro-desktop.png);
+    padding-top: 100px;
+    width: 100%;
+}
+
+main{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+}
+
+.h1divss {
+    color: white;
+    font-weight: 600px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hdd {
+    color: white;
+}
+
+.inputcontent {
+    background-color: hsl(128, 32%, 49%);
+    border: none;
+    color: white;
+    text-align: center;
+    padding:5px;
+    height:40px;
+}
+
+.formdiv {
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'poppins', sans-serif;
+}
+
+input {
+    width: 100%;
+    display:block;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.submit {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+    
+p{
+    font-size: 15px;
+    color: white;
+}
+
+.terms {
+    color: black;
+    font-size: 10px;
+    
+}
+
+.pholder {
+    visibility: visible;
+    color:hsl(0, 100%, 74%);
+    text-align:right;
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+
+.in1:valid~.pholder {
+    visibility: hidden;
+}
+
+span {color:red
+}
+
+.main2 {
+    width:30%;
+    height:50%
+}
+    
+.fin input:invalid {
+background-position-x:95%;
+border-color: hsl(0, 100%, 74%);
+background-image: url(./images/icon-error.svg);
+background-repeat: no-repeat;
+background-position: right;
+background-size: 20px;
+}
+
+@media (max-width:1440px) {
+    body {
+        flex-direction: row;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:915px) {
+    body {
+        flex-direction: row;
+        font-size: 15px;
+    }
+}
